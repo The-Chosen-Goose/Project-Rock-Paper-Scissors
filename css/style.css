@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'font';
+    src: url(space\ age.ttf)
+}
+
+@font-face {
+    font-family: 'designer';
+    src : url(fonts/Designer.otf)
+}
+
+#title{
+    font-family: designer ;
+    font-size:300%;
+    color:black;
+    background-color: #FFE082;
+    width:100%;
+    text-align: center;
+    padding:40px 0 40px 0;
+    border-bottom:5px solid black;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:60px;
+    background-color:#E0D2E5;
+    margin:0;
+    justify-content: space-between;
+}
+
+.icons {
+    display:flex;
+    gap:40px;
+}
+
+#rock img,
+#scissors img,  
+#paper img {
+    height: 96px;
+    width:96px;
+    padding:20px;
+}
+
+
+#rock,
+#scissors,
+#paper{
+  height:140px;
+  width:136px;
+  border:5px solid black;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.upper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0D2E5;
+    height:250px;
+    gap : 50px;
+    width:100%;
+    text-align: center;
+}
+
+
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+    background-color: #FFE082;
+    transition: ease-in .4s;
+}
+
+
+
+#player img,
+#computer img {
+    height:60px;
+    width:60px;
+}
+
+
+.results{
+    display:flex;
+    gap : 100px;
+    justify-content: space-around;
+}
+
+
+#winner {
+    color:white;
+}
+
+#sec_title{
+    font-family: designer;
+    font-size:x-large;
+    margin-bottom:20px;
+    border-bottom:5px solid black;
+    padding-bottom:20px;
+    
+}
+
+
+
+button {
+    width:150px;
+    height:60px;
+    border-radius:50px;
+    font-family: designer;
+    font-size:x-large;
+    font-weight:bold;
+    background-color: #FFE082;
+    border:5px solid black;
+}
+
+
+#player,
+#computer {
+    font-family: designer;
+    font-size:x-large;
+}
+
+.versus {
+    height:100px;
+    display:flex;
+    flex-direction:column;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: start;
+    align-self:center;
+}
+
+
+
+.footer{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#rules {
+    font-family: designer;
+    border:5px solid black;
+    border-radius: 15px;
+    height:fit-content;
+    padding: 10px;
+    background-color:#FFE082;
+    text-align: center;
+    margin-top:-35px;
+    align-self:center;
+  }
+
+
+#round_winner,
+#winner {
+    font-family: designer;
+    font-size: x-large;
+}
+
+#winner {
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items: center;
+}
+
+#note  {
+    font-family: designer;
+    font-size:small;
+    padding:10px;
+}
