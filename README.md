@@ -5,7 +5,10 @@ Project: Rock Paper Scissors > https://www.theodinproject.com/lessons/foundation
 
 Creating a game using javascript. 
 
-the game consists of 5 rounds.
-in each round the player choosing one of these three options ROCK/PAPER/SCISSORS against the bot with random choice
+the player click on 'start' button to start the game 
 
-and the winner will displayed after each round and at the end of the game + the scores
+then the player clicks on one of three options : rock,paper,scissors
+
+the computer will choose after that and the winner of the round will be displayed
+
+the first to reach a score of 5 wins
