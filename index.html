@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head> </head>
+    <head>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <meta charset = 'utf-8'>
+    </head>
 
     <body>
-        <script src="game.js"></script>
+        <div id = "title">ROCK PAPER SCISSORS</div>
+
+        <div class = "upper">
+            <div id = 'sec_title'>Choose your move</div>
+            <div class = "icons">
+                <div id ="rock" ><img src ="css/images/icons8-fist-96.png"></div>
+                <div id ="paper"><img  src="css/images/icons8-hand-96.png"></div>
+                <div id = "scissors"><img  src="css/images/icons8-hand-scissors-96.png"></div>
+            </div>
+        </div>
+        
+        <div class = "results">
+            <div id = "player">Player : 0</div>
+            
+            <div id = "computer">Computer : 0</div>
+           
+        </div>
+        <div class = 'versus'>
+            <div id = "round_winner"></div>
+            <div id = "winner">
+                <img id = "winner_icon">
+            </div>
+            <div id = "note"></div>
+        </div>
+
+
+            <div class = "footer">
+                <div class="buttons">
+                    <button id = 'start'>Start</button>
+                    <button id = 'reload'>Reset</button>
+                </div>
+                <div id = "note"></div>
+                <div id = "rules">
+                    <p>--- RULES ---</p>
+                    <p>The first to reach a score of 5 Wins</p>
+                    <p>The player choice is colored in <span style = 'color:#3333FF'>blue</span></p>
+                    <p>the computer choice is colored in <span style = 'color:#dd153d'>red</span></p>
+                    <p>In case of a TIE the choice will be colored in <span style = 'color:#9B30FF'>purple</span></p>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js" ></script>
     </body>
 </html>
