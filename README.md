@@ -1,7 +1,9 @@
 
 
 
-Project: Rock Paper Scissors > https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
+Project: Rock Paper Scissors > https://www.theodinproject.com/lessons/foundations-rock-paper-scissors 
+
+![brave_G7cBKBzubP](https://github.com/user-attachments/assets/f2180278-7066-4e96-8a5b-b688fa17651e)
 
 Creating a game using javascript. 
 
